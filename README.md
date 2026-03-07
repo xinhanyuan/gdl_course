@@ -1,28 +1,14 @@
 # GDL Course — Geometric Deep Learning
 
-几何深度学习课程笔记与代码。
+本仓库用作 **2026春季《几何深度学习》**课程作业代码存放。
 
-## 内容结构
+## 目录结构
 
 ```
 gdl_course/
-├── notebooks/      # Jupyter 练习笔记
-├── src/            # 核心代码模块
-├── data/           # 数据集（小型示例）
-└── notes/          # 课程笔记
-```
-
-## 主要主题
-
-- 图神经网络（GNN）
-- 点云与网格处理
-- 等变神经网络
-- 几何先验与对称性
-
-## 环境依赖
-
-```bash
-pip install torch torch-geometric numpy matplotlib
+├── code/       # 课程作业代码
+├── data/       # 数据集
+└── slides/     # 课件
 ```
 
 ## 参考资料
