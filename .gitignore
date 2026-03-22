@@ -3,3 +3,5 @@ __pycache__/
 
 data/MNIST/
 code/assignment_2/data/
+code/assignment_3/*.pth
+code/assignment_3/.torch/

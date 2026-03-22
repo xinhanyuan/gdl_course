@@ -24,6 +24,14 @@ gdl_course/
 - 提供手写数字识别 GUI，支持画板输入、实时预测以及 0-9 类别置信度可视化。
 - 当前实验报告记录的最佳测试集准确率为 `98.01%`。
 
+### assignment_3
+
+- 基于 Dogs vs. Cats 数据集完成卷积神经网络图像分类实验。
+- `train_scratch.py` 从零搭建 4 个卷积块的 CNN，并保存 `best_cnn.pth` 与 `cnn_scratch_curves.png`。
+- `finetune.py` 基于 ImageNet 预训练 `ResNet18` 实现两阶段迁移学习，并保存 `best_phase2.pth` 与 `finetune_curves.png`。
+- `visualize_features.py` 对任务一训练好的 CNN 做中间层特征图可视化，并生成 `cnn_feature_maps.png`。
+- 当前实验报告记录的最佳验证集准确率为：任务一 `91.58%`，任务二 `99.22%`。
+
 ## 参考资料
 
 - [Geometric Deep Learning: Grids, Groups, Graphs, Geodesics, and Gauges](https://geometricdeeplearning.com/)
